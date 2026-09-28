@@ -1,0 +1,80 @@
+/* ==========================================================================
+   INVI Design System Tokens & CSS Variables
+   ========================================================================== */
+
+:root {
+  /* Brand Colors - Burgundy / Maroon Palette */
+  --sidebar-gradient-start: #4A121F;
+  --sidebar-gradient-end: #2B0A11;
+  --sidebar-text: #FFFFFF;
+  --sidebar-muted: rgba(255, 255, 255, 0.72);
+  --sidebar-active-bg: rgba(255, 255, 255, 0.14);
+  --sidebar-active-border: #FF758F;
+  --sidebar-hover-bg: rgba(255, 255, 255, 0.08);
+
+  --primary: #4A121F;
+  --primary-hover: #380D17;
+  --primary-light: #FBF0F2;
+  --primary-focus-ring: rgba(74, 18, 31, 0.25);
+
+  /* Backgrounds & Surfaces */
+  --bg-app: #F8F9FA;
+  --bg-surface: #FFFFFF;
+  --bg-surface-secondary: #F3F4F6;
+  --bg-surface-hover: #F9FAFB;
+  --bg-border: #E5E7EB;
+  --bg-border-light: #F0F2F5;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-mono: 'JetBrains Mono', SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  
+  --text-main: #111827;
+  --text-secondary: #4B5563;
+  --text-muted: #6B7280;
+  --text-inverted: #FFFFFF;
+
+  /* Status Colors: Green (Online / Ready / On Duty / Good) */
+  --status-green-bg: #DEF7EC;
+  --status-green-text: #03543F;
+  --status-green-dot: #31C48D;
+  --status-green-border: rgba(49, 196, 141, 0.25);
+
+  /* Status Colors: Yellow / Amber (Late / Warning / Weak) */
+  --status-yellow-bg: #FEF3C7;
+  --status-yellow-text: #92400E;
+  --status-yellow-dot: #F59E0B;
+  --status-yellow-border: rgba(245, 158, 11, 0.25);
+
+  /* Status Colors: Red (Offline / Missing / Changed / Device Off) */
+  --status-red-bg: #FDE8E8;
+  --status-red-text: #9B1C1C;
+  --status-red-dot: #F05252;
+  --status-red-border: rgba(240, 82, 82, 0.25);
+
+  /* Blue / Info Status */
+  --status-blue-bg: #E1EFFE;
+  --status-blue-text: #1E429F;
+  --status-blue-dot: #3F83F8;
+
+  /* Elevation & Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.08), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
+  --shadow-md: 0 4px 16px -2px rgba(17, 24, 39, 0.06), 0 2px 4px -2px rgba(17, 24, 39, 0.04);
+  --shadow-lg: 0 10px 25px -3px rgba(17, 24, 39, 0.08), 0 4px 6px -4px rgba(17, 24, 39, 0.03);
+  --shadow-modal: 0 20px 45px -10px rgba(0, 0, 0, 0.25);
+
+  /* Radii */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 16px;
+  --radius-pill: 9999px;
+
+  /* Layout Measurements */
+  --sidebar-width: 256px;
+  --sidebar-collapsed-width: 72px;
+  --topbar-height: 70px;
+  --transition-normal: 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-smooth: 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
